@@ -1,0 +1,15 @@
+pyttsx3
+speechrecognition
+datetime
+os
+subprocess
+webbrowser
+pywhatkit
+opencv-python
+time
+pyautogui
+pyjokes
+random
+wikipedia
+requests
+psutil
