@@ -443,7 +443,7 @@ def roast_techno():
 def play_pause_media():
     pyautogui.press("playpause")
     speak("Done")
-
+    
 #extras - motivation
 def motivation():
     comments = ["You're doing great, keep it up! Every effort counts, you're getting closer to your goal!", "Wow, that's impressive! Keep pushing, you're on the right track!", "Nice work, you're on fire today! Stay focused, success is within reach!", "Keep going, you're almost there! Don't stop now, victory is just ahead!", "Well done! I'm proud of you! Your dedication is inspiring!", "You're absolutely crushing it! Keep the momentum going, you're unstoppable!", "That's fantastic, keep it up! The best is yet to come, stay strong!", "I knew you could do it! You're capable of achieving great things!", "Great job! Keep the momentum going! You're one step closer to your dream!", "You're unstoppable, keep pushing! The finish line is near, don't quit!", "This is awesome! Keep up the good work! Your efforts are making a difference!", "You're making amazing progress! Every little step adds up to big results!", "You're on the right track, keep it going! Success is just around the corner!", "You're doing awesome, don't stop now! The journey may be tough, but you’re tougher!", "That's amazing, you're truly talented! Keep showcasing your strengths, you’ve got this!", "You're a star! Keep shining! Your potential is limitless, keep reaching for the sky!", "You're capable of achieving anything! Believe in yourself, and keep moving forward!", "Nothing can stop you, keep going! The world is yours to conquer, one step at a time!", "Your effort will pay off, keep pushing! Hard work never goes unnoticed, success is near!", "Believe in yourself, you're amazing! Keep believing, and greatness will follow!", "Every step forward is a step closer to success! Don’t look back, just keep going forward!", "You're stronger than you think! The challenges ahead are just opportunities to grow!", "You have the power to make things happen! Keep believing, and you’ll see incredible results!", "Your hard work is paying off! The progress you’re making is inspiring!", "Keep up the great work, you're almost there! Finish strong, you're closer than you think!", "Success is just around the corner, keep going! Your persistence will lead to victory!"]
@@ -549,7 +549,7 @@ def start_techno():
         elif "roast me" in command or "make fun of me" in command:
             speak(roast_techno())
         
-        elif "pause" in command or "continue" in command or "stop" in command:
+        elif "pause" in command or "continue" in command or "stop the music" in command or "stop" in command:
             play_pause_media()
         
         elif "volume up" in command or "increase volume" in command:
