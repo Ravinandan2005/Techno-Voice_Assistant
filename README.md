@@ -134,7 +134,6 @@ Feel free to fork this repository, submit issues, or send pull requests. Contrib
 
 ## If you find this project helpful, please consider giving it a ⭐ and forking it! 🙏
 
-### Do not copy please if you are going to consider giving star and forking it and hit a follow :)
 
 ## Contact Me
 
